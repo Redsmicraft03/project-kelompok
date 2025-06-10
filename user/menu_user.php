@@ -96,33 +96,35 @@ $nama_user = isset($_SESSION['user_nama']) ? $_SESSION['user_nama'] : 'Pengguna'
         </div>
 
         <div class="menu-grid">
-            <a href="daftar_produk.php" class="menu-item">
+            <a href="../pesan/menu_makanan.php" class="menu-item">
                 <div class="icon">🍔</div>
                 <div class="title">Menu Makanan</div>
             </a>
 
-            <a href="keranjang.php" class="menu-item">
+            <a href="../pesan/keranjang.php" class="menu-item">
                 <div class="icon">🛒</div>
                 <div class="title">Keranjang Saya</div>
             </a>
 
-            <a href="riwayat_pesanan.php" class="menu-item">
+            <a href="../pesan/riwayat_pesanan.php" class="menu-item">
                 <div class="icon">🧾</div>
                 <div class="title">Riwayat Pesanan</div>
             </a>
             
-            <a href="promo.php" class="menu-item">
-                <div class="icon">🎟️</div>
-                <div class="title">Promo & Voucher</div>
+            <a href="../hubungi/contact.php" class="menu-item">
+                <div class="icon">📞</div>
+                <div class="title">Hubungi Kami</div>
             </a>
             
-            <a href="akun.php" class="menu-item">
+            <a href="../akun/akun.php" class="menu-item">
                 <div class="icon">👤</div>
                 <div class="title">Akun Saya</div>
             </a>
+            <a href="../login/logout.php" class="menu-item">
+                <div class="icon">📤</div>
+                <div class="title">Logout</div>
+            </a>
         </div>
-        
-        <a href="../login/logout.php" class="logout-link">Logout</a>
     </div>
 
 </body>
