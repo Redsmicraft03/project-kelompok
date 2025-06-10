@@ -26,7 +26,7 @@ $order_id = htmlspecialchars($_GET['order_id']);
         <h1>Pesanan Anda Berhasil Dibuat!</h1>
         <p>Terima kasih telah berbelanja. Nomor pesanan Anda adalah <strong>#<?= $order_id ?></strong>.</p>
         <p>Kami akan segera memproses pesanan Anda.</p>
-        <a href="menu_user.php" class="btn">Kembali ke Menu Utama</a>
+        <a href="../user/menu_user.php" class="btn">Kembali ke Menu Utama</a>
     </div>
 </body>
 </html>
