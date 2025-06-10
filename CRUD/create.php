@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="container">
         <h1>Tambah Produk Baru</h1>
-        <form action="tambah_produk.php" method="POST">
+        <form action="create.php" method="POST">
             <div class="form-group">
                 <label for="nama_produk">Nama Produk</label>
                 <input type="text" id="nama_produk" name="nama_produk" required>
