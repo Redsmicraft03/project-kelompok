@@ -198,10 +198,10 @@ $reviews = [
             <div class="nav-actions">
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <a href="akun.php" class="btn btn-login">Akun Saya</a>
-                    <a href="logout.php" class="btn btn-register">Logout</a>
+                    <a href="../logout/logout.php" class="btn btn-register">Logout</a>
                 <?php else: ?>
-                    <a href="login.php" class="btn btn-login">Login</a>
-                    <a href="register.php" class="btn btn-register">Register</a>
+                    <a href="../login/login.php" class="btn btn-login">Login</a>
+                    <a href="../login/register.php" class="btn btn-register">Register</a>
                 <?php endif; ?>
             </div>
         </nav>
