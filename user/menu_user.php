@@ -91,7 +91,7 @@ $nama_user = isset($_SESSION['user_nama']) ? $_SESSION['user_nama'] : 'Pengguna'
 
     <div class="container">
         <div class="header">
-            <h1>Selamat Datang di Kio-Food</h1>
+            <h1>Selamat Datang di CIANJURRR</h1>
             <p>Halo, <?php echo htmlspecialchars($nama_user); ?>!</p>
         </div>
 
