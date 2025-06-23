@@ -130,7 +130,7 @@ function render_menu_card($row, $keranjang) {
         .header {
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: white;
-            padding: 40px 0;
+            padding: 20px 0;
             text-align: center;
             box-shadow: var(--shadow-lg);
             position: sticky;
@@ -147,7 +147,6 @@ function render_menu_card($row, $keranjang) {
         .header h1 {
             font-size: 36px;
             font-weight: 700;
-            margin-bottom: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -710,7 +709,6 @@ function render_menu_card($row, $keranjang) {
                 <i class="fas fa-utensils"></i>
                 Pilih Menu Favorit Anda
             </h1>
-            <p>Temukan kelezatan cireng terbaik dengan berbagai varian rasa yang menggugah selera</p>
         </div>
     </header>
 
